@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ShopEase — Home</title>
+  <link rel="stylesheet" href="home.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Announcement -->
+  <div class="announcement" role="status">
+    Free shipping on orders over ₹999 · Easy 7-day returns
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo" aria-label="ShopEase Home">
+      <span class="logo-dot" aria-hidden="true"></span> ShopEase
+    </a>
+
+    <form class="search" role="search" aria-label="Site search">
+      <input type="search" placeholder="Search for products, brands and more…" aria-label="Search" />
+      <button type="submit" aria-label="Search">🔍</button>
+    </form>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#">Home</a>
+      <a href="#">New</a>
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">Electronics</a>
+      <a href="#">Sale</a>
+      <a href="#" class="cart" aria-label="Cart">🛒 <span class="cart-count" aria-label="Items in cart">2</span></a>
+    </nav>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">☰</button>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav id="mobile-nav" class="mobile-nav" hidden>
+    <a href="#">Home</a>
+    <a href="#">New</a>
+    <a href="#">Men</a>
+    <a href="#">Women</a>
+    <a href="#">Electronics</a>
+    <a href="#">Sale</a>
+    <a href="#">Cart</a>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Festive Mega Sale</p>
+      <h1>Upgrade Your Everyday</h1>
+      <p class="sub">Premium picks, pocket-friendly prices. Up to <strong>60% off</strong> on top categories.</p>
+      <div class="hero-actions">
+        <a href="#" class="btn btn-primary">Shop Deals</a>
+        <a href="#" class="btn btn-ghost">Explore New Arrivals</a>
+      </div>
+    </div>
+    <div class="hero-art" role="img" aria-label="Collection of lifestyle products"></div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section">
+    <div class="section-head">
+      <h2>Shop by Category</h2>
+      <a href="#" class="see-all">See all</a>
+    </div>
+    <div class="categories">
+      <a class="cat" href="#">
+        <img src="https://images.unsplash.com/photo-1511556820780-237ac5e1e13a?q=80&w=800&auto=format&fit=crop" alt="Men’s Fashion" />
+        <span>Men</span>
+      </a>
+      <a class="cat" href="#">
+        <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=800&auto=format&fit=crop" alt="Women’s Fashion" />
+        <span>Women</span>
+      </a>
+      <a class="cat" href="#">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=800&auto=format&fit=crop" alt="Electronics" />
+        <span>Electronics</span>
+      </a>
+      <a class="cat" href="#">
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop" alt="Laptops" />
+        <span>Laptops</span>
+      </a>
+      <a class="cat" href="#">
+        <img src="https://images.unsplash.com/photo-1529336953121-ad5a0d43d0d2?q=80&w=800&auto=format&fit=crop" alt="Home & Kitchen" />
+        <span>Home</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="section">
+    <div class="section-head">
+      <h2>Trending Now</h2>
+      <a href="#" class="see-all">View all</a>
+    </div>
+
+    <div class="products">
+      <!-- Product Card -->
+      <article class="product" aria-label="Noise Cancelling Headphones">
+        <a href="#" class="product-media">
+          <img src="https://images.unsplash.com/photo-1518443895914-6f7f1b8d8d53?q=80&w=1200&auto=format&fit=crop" alt="Matte black over-ear headphones" />
+          <span class="badge">-35%</span>
+        </a>
+        <div class="product-body">
+          <h3 class="product-title"><a href="#">Noise Cancelling Headphones</a></h3>
+          <p class="product-price">
+            <span class="price-now">₹4,499</span>
+            <span class="price-was">₹6,999</span>
+          </p>
+          <div class="product-meta" aria-label="Rating">★★★★☆ (1,248)</div>
+          <button class="btn btn-block">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product" aria-label="Smartwatch Pro">
+        <a href="#" class="product-media">
+          <img src="https://images.unsplash.com/photo-1518441902114-4730f31c4bb1?q=80&w=1200&auto=format&fit=crop" alt="Smartwatch with black strap" />
+          <span class="badge">Best Seller</span>
+        </a>
+        <div class="product-body">
+          <h3 class="product-title"><a href="#">Smartwatch Pro</a></h3>
+          <p class="product-price">
+            <span class="price-now">₹3,299</span>
+          </p>
+          <div class="product-meta">★★★★★ (3,021)</div>
+          <button class="btn btn-block">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product" aria-label="Minimal Sneakers">
+        <a href="#" class="product-media">
+          <img src="https://images.unsplash.com/photo-1521090281875-28c1e97f1a3c?q=80&w=1200&auto=format&fit=crop" alt="White minimal sneakers" />
+        </a>
+        <div class="product-body">
+          <h3 class="product-title"><a href="#">Minimal Sneakers</a></h3>
+          <p class="product-price">
+            <span class="price-now">₹2,199</span>
+          </p>
+          <div class="product-meta">★★★★☆ (879)</div>
+          <button class="btn btn-block">Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="product" aria-label="Wireless Keyboard">
+        <a href="#" class="product-media">
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop" alt="Slim wireless keyboard" />
+          <span class="badge">New</span>
+        </a>
+        <div class="product-body">
+          <h3 class="product-title"><a href="#">Wireless Keyboard</a></h3>
+          <p class="product-price">
+            <span class="price-now">₹1,499</span>
+          </p>
+          <div class="product-meta">★★★★☆ (312)</div>
+          <button class="btn btn-block">Add to Cart</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Promo Banner -->
+  <section class="promo">
+    <div class="promo-card">
+      <div class="promo-text">
+        <h3>Members get extra 10% off</h3>
+        <p>Join for free and unlock exclusive drops & rewards.</p>
+      </div>
+      <a class="btn btn-primary" href="#">Join Now</a>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="newsletter-inner">
+      <h2>Get updates & offers</h2>
+      <p>Be the first to know about new drops, deals and exclusives.</p>
+      <form class="newsletter-form" aria-label="Subscribe to newsletter">
+        <label for="email" class="sr-only">Email</label>
+        <input id="email" type="email" placeholder="you@example.com" required />
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h4>ShopEase</h4>
+        <p>Your trusted marketplace for quality products.</p>
+      </div>
+      <div>
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Best Sellers</a></li>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Clearance</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Help</h5>
+        <ul>
+          <li><a href="#">Customer Support</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Order Status</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>© <span id="year"></span> ShopEase. All rights reserved.</small>
+      <div class="socials" aria-label="Social media">
+        <a href="#" aria-label="Instagram">📸</a>
+        <a href="#" aria-label="X/Twitter">𝕏</a>
+        <a href="#" aria-label="YouTube">▶️</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle (no framework)
+    const toggle = document.querySelector(".nav-toggle");
+    const mobile = document.getElementById("mobile-nav");
+    toggle.addEventListener("click", () => {
+      const open = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!open));
+      mobile.hidden = open;
+    });
+
+    // Year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

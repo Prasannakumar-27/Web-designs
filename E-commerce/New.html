@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>New Arrivals • ShopX</title>
+  <link rel="stylesheet" href="New.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Announcement -->
+  <div class="bar">✨ New season, new styles — free shipping on orders over $49</div>
+
+  <!-- Header / Nav -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">ShopX</a>
+
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a class="active" href="#">New</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Electronics</a>
+        <a href="#">Sale</a>
+      </nav>
+
+      <div class="header__actions">
+        <input class="search" type="search" placeholder="Search new arrivals..." aria-label="Search" />
+        <button class="icon-btn" aria-label="Wishlist">♡</button>
+        <button class="icon-btn" aria-label="Cart">🛒</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__content">
+      <h1>Fresh Drops: New Arrivals</h1>
+      <p>Hand-picked styles and gadgets that just landed. Limited stock—grab yours.</p>
+      <div class="hero__chips">
+        <span class="chip">Trending</span>
+        <span class="chip">Eco</span>
+        <span class="chip">Under $50</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filters + Sort -->
+  <section class="container controls">
+    <div class="filters">
+      <button class="filter active">All</button>
+      <button class="filter">Clothing</button>
+      <button class="filter">Shoes</button>
+      <button class="filter">Accessories</button>
+      <button class="filter">Electronics</button>
+    </div>
+
+    <label class="sort">
+      <span>Sort by:</span>
+      <select>
+        <option selected>Newest</option>
+        <option>Price: Low to High</option>
+        <option>Price: High to Low</option>
+        <option>Top Rated</option>
+      </select>
+    </label>
+  </section>
+
+  <!-- Product Grid -->
+  <main class="container grid">
+    <!-- Card -->
+    <article class="card">
+      <div class="card__img">
+        <img src="https://via.placeholder.com/600x700" alt="AirLite Runner Sneaker" />
+        <span class="badge">New</span>
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">AirLite Runner</h3>
+        <p class="card__subtitle">Men • Shoes</p>
+        <div class="card__meta">
+          <div class="price">
+            <span class="price__now">$79</span>
+            <span class="price__old">$99</span>
+          </div>
+          <div class="rating" aria-label="4.5 out of 5">★★★★☆</div>
+        </div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__img">
+        <img src="https://via.placeholder.com/600x700" alt="Minimal Cotton Tee" />
+        <span class="badge badge--green">Eco</span>
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">Minimal Cotton Tee</h3>
+        <p class="card__subtitle">Unisex • Clothing</p>
+        <div class="card__meta">
+          <div class="price">
+            <span class="price__now">$24</span>
+          </div>
+          <div class="rating" aria-label="4 out of 5">★★★★☆</div>
+        </div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__img">
+        <img src="https://via.placeholder.com/600x700" alt="SmartWave Earbuds" />
+        <span class="badge">New</span>
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">SmartWave Earbuds</h3>
+        <p class="card__subtitle">Electronics</p>
+        <div class="card__meta">
+          <div class="price">
+            <span class="price__now">$59</span>
+          </div>
+          <div class="rating" aria-label="5 out of 5">★★★★★</div>
+        </div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__img">
+        <img src="https://via.placeholder.com/600x700" alt="Everyday Backpack" />
+        <span class="badge badge--pink">Hot</span>
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">Everyday Backpack</h3>
+        <p class="card__subtitle">Accessories</p>
+        <div class="card__meta">
+          <div class="price">
+            <span class="price__now">$45</span>
+        </div>
+          <div class="rating" aria-label="4.2 out of 5">★★★★☆</div>
+        </div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__img">
+        <img src="https://via.placeholder.com/600x700" alt="Flow Yoga Leggings" />
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">Flow Yoga Leggings</h3>
+        <p class="card__subtitle">Women • Clothing</p>
+        <div class="card__meta">
+          <div class="price">
+            <span class="price__now">$39</span>
+          </div>
+          <div class="rating" aria-label="4.8 out of 5">★★★★★</div>
+        </div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__img">
+        <img src="https://via.placeholder.com/600x700" alt="Quartz Analog Watch" />
+        <span class="badge">New</span>
+      </div>
+      <div class="card__body">
+        <h3 class="card__title">Quartz Analog Watch</h3>
+        <p class="card__subtitle">Accessories</p>
+        <div class="card__meta">
+          <div class="price">
+            <span class="price__now">$69</span>
+          </div>
+          <div class="rating" aria-label="4.3 out of 5">★★★★☆</div>
+        </div>
+        <button class="btn">Add to Cart</button>
+      </div>
+    </article>
+  </main>
+
+  <!-- CTA Banner -->
+  <section class="cta">
+    <div class="container cta__inner">
+      <h2>Don’t miss limited drops</h2>
+      <p>Subscribe to get first access to new releases and early-bird offers.</p>
+      <form class="cta__form" onsubmit="return false" aria-label="Subscribe form">
+        <input type="email" placeholder="you@example.com" required />
+        <button class="btn btn--dark" type="submit">Notify Me</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <h4>ShopX</h4>
+        <p>Modern essentials & tech—curated weekly.</p>
+      </div>
+      <div>
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter/X</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bar">© <span id="year"></span> ShopX. All rights reserved.</div>
+  </footer>
+
+  <script>
+    // set year without extra libraries
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

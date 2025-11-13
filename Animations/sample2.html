@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        * {
+            margin: 0;
+            top: 0;
+        }
+        header {
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+        }
+        li a {
+            text-decoration: none;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .banner {
+            width: 100vw;
+            overflow: hidden;
+            background: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            width: max-content;
+            animation: scroll 10s linear infinite;
+            margin-bottom: 10px;
+        }
+        .movie {
+            width: 500px;
+            height: 400px;
+            background: rgba(255,255,255,0.5);
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        .movie img {
+            border-radius: 10px;
+        }
+        .name {
+            padding: 70px;
+            background: linear-gradient(90deg, #9b5d35, #6a0dad);
+        }
+        .name h1{
+            text-align: center;
+            font-size: 60px;
+        }
+        .name h4 {
+            text-align: center;
+            font-size: 30px;
+        }
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(calc(-50%));
+            }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="container">
+            <div class="movie">
+                <img src="../images/img1.jpg" width="500" height="400">
+            </div>
+            <div class="movie">
+                <img src="../images/img3.jpg" width="500" height="400">
+            </div>
+            <div class="movie">
+                <img src="../images/img4.jpg" width="500" height="400">
+            </div>
+            <div class="movie">
+                <img src="../images/img5.jpg" width="500" height="400">
+            </div>
+            <div class="movie">
+                <img src="../images/img1.jpg" width="500" height="400">
+            </div>
+            <div class="movie">
+                <img src="../images/img3.jpg" width="500" height="400">
+            </div>
+            <div class="movie">
+                <img src="../images/img4.jpg" width="500" height="400">
+            </div>
+            <div class="movie">
+                <img src="../images/img5.jpg" width="500" height="400">
+            </div>
+        </div>
+    </div>
+    <div class="name">
+        <h1>PK PHOTOGRAPHY</h1>
+        <h4>Make passion into profession</h4>
+    </div>
+    
+</body>
+</html>
